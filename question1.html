@@ -11,7 +11,7 @@
 	{
 		d3.csv('birds.csv')
 		  .then(function(data)  {
-			  bird_data = ;
+			  bird_data = data;
 			  bird_data.forEach(function(d)  {
 				  d.bird_size=+d.bird_size;
 				  d.wing_length=+d.wing_length+0.01;
